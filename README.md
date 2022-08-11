@@ -22,7 +22,7 @@ project
 python src\data_processing\filter_data.py \
     --data-path <path_to_data> \
     --path-to-save <path_to_save_filtered_data> \
-    --required-labels <labels_to_be_left>
+    --required-labels <str_with_labels_to_be_left>
 ```
 
 Разбиение данных на train/val.

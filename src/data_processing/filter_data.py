@@ -23,7 +23,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-path", type=Path, required=True)
     parser.add_argument("--path-to-save", type=Path, required=True)
-    parser.add_argument("--required-labels", type=str, required=True)
+    parser.add_argument("--required-labels", type=str, default="4w")
     args = parser.parse_args()
 
     logger.info("Filtering data.")
